@@ -13,10 +13,13 @@ ul {
 
 /* site-nav */
 
-.site-nav. link {
+.site-nav. a {
     color: #212121;
 }
-
+.site-nav. link:hover,
+.site-nav. link:focus {
+    color: #2196F3;
+}
 /* section */
 
 .sectoin-title {
