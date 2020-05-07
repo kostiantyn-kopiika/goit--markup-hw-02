@@ -1,0 +1,38 @@
+body {
+    color: #212121;
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: #2196F3;
+}
+
+/* site-nav */
+
+.site-nav. link {
+    color: #212121;
+}
+
+/* section */
+
+.sectoin-title {
+    color: #212121 ;
+}
+
+/* Feature */
+.feature-list .title {
+    color: #212121;
+}
+/* основной цвет текста #212121 */
+
+/* вторичный цвет текста #757575 */
+
+/* белый #FFFFFF */
+
+/* акцент #2196F3 */
+
+/* вторичный цвет фона #F5F4FA */
