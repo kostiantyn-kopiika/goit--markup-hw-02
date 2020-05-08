@@ -1,0 +1,84 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3; 
+    --primary-white-color:  #FFFFFF;
+}    
+    
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: var(--accent-color);
+}
+.logo:hover {
+    color: var(--primary-text-color);
+}
+.logo.text {
+    color: var(--title-text-color)
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current _{
+    color: var(--accent-color);
+}
+/* section */
+
+.sectoin-title {
+    color: var(--title-text-color);
+}
+ 
+.hero-title {
+    color:  var(--primary-white-color);
+}
+/* Feature */
+.feature-list .title {
+    color: var(--primary-text-color);
+}
+
+.work-list .title {
+    color: var(--title-text-color);
+}
+
+/* Button */
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.primary {
+    color: var(--primary-text-color);
+    
+}
+.button.primary:hover,
+.button.primary:focus {
+    color: var(--accent-color);
+}
+.button.secondary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* основной цвет текста #212121 */
+
+/* вторичный цвет текста #757575 */
+
+/* белый #FFFFFF */
+
+/* акцент #2196F3 */
+
+/* вторичный цвет фона #F5F4FA */

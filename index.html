@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
   </head>
 
   <body>
@@ -12,25 +13,25 @@
     <header>
       <nav>
         <a href="" class="logo">
-          Web Studio
-        </a>
+          Web <span class="logo text">Studio</span> 
 
         <ul class="site-nav list">
-          <li><a href="" class="link">Студия</a></li>
-          <li><a href="" class="link">Портфолио</a></li>
+          <li><a href="" class="link current">Студия</a></li>
+          <li><a href=" ./portfolio.html" 
+          class="link">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
 
       <ul class="auth-nav list">
         <li>
-          <a href="">
+          <a href="" class="button primary">
             <img src="./images/envelope(hover).svg" alt="Почта" width="16" />
             info@devstudio.com
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="" class="button primary">
             <img src="./images/Vector.svg" alt="Телефон" width="10" />
             +38 096 111 11 11
           </a>
@@ -41,7 +42,7 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+        <a href="" class="button secondary">Заказать услугу</a>
       </section>
 
       <section class="section">
@@ -87,20 +88,20 @@
 
       <section class="section">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="work-list"> 
           <li>
             <img src="./images/img.jpg" alt="Компьютер" width="380" />
-            <h3>десктопные приложения</h3>
+            <h3 class="tittle">десктопные приложения</h3>
           </li>
 
           <li>
             <img src="./images/box.jpg" alt="Смартфон" width="380" />
-            <h3>мобильные приложения</h3>
+            <h3 class="tittle">мобильные приложения</h3>
           </li>
 
           <li>
             <img src="./images/img(1).jpg" alt="Монитор" width="380" />
-            <h3>дизайнерские решения</h3>
+            <h3 class="tittle">дизайнерские решения</h3>
           </li>
         </ul>
       </section>
@@ -245,7 +246,7 @@
       <div>
         <b>подписаться на рассылку</b>
         <p lang="en">E-mail</p>
-        <p>Подписаться</p>
+        <p class="button secondary">Подписаться</p>
       </div>
     </footer>
   </body>
